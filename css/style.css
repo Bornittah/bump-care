@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: Spartan,'Courier New', Courier, monospace;
+}
+.wrapper{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background: #f7edff91;
+    overflow: auto;
+   
+}
+.header{
+    display: flex;
+    margin: 20px;
+}
+nav{
+    text-align: right;
+    flex: 50%;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li i{
+    color: #FFFFFF;
+}
+nav ul li a{
+   text-decoration: none;
+   color:#8E234D;
+}
+nav ul li a:hover{
+    color:#f5a207;
+    border-bottom: 1px solid #8E234D;
+}
+
+.logo{
+   flex: 50%;
+}
+.logo h1{
+    text-align: left;
+    color:#8E234D;
+    text-emphasis: bold;
+}
+.row{
+display: flex;
+width: 100%;
+display: -webkit-flex;
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
+
+}
+.column{
+flex: 1;
+margin: 10px;
+background: #8E234D;
+border-radius: 20px;
+text-align: center;
+height: 100%;
+}
+.column h1{
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.column img{
+width:95%;
+height:250px;
+border-radius: 10px;
+}
+.page-link{
+ display: inline;
+ width: 80%;
+ margin: 10px;
+}
+
+.page-link a{
+    padding:5px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    width:50%;
+}
+.page-link a:hover{
+    color:#f5a207;
+    border-bottom: 1px solid #8E234D;
+}
+.footer{
+    bottom: 30px;
+    text-align: center;
+}
+.icon{
+    width: 40px;
+}
+@media(max-width:900px){
+    .row{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        }
+ } 
+ /* pregnancy page */
+.page-row{
+    display: flex;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+.page-column{
+    flex: 50%;
+    margin-left: 15px;
+}
+.page-column img{
+    height: 450px;
+    width: 100%;
+}
+.page-column p{
+   text-align: justify;
+   line-height: 1.5;
+
+}
+.page-column ul li{
+    text-align: justify;
+   line-height: 2;
+   list-style: none;
+}
+.page-column ul li a{
+    text-decoration: none;
+}
+.page-column ul li a:hover{
+    color:#f5a207;
+    border-bottom: 1px solid #8E234D;
+}
+.page-column ul li a i{
+   padding-right: 15px;
+   /* color: #8E234D; */
+}
